@@ -26,49 +26,29 @@
 
 #include <iostream>
 
-#include "fight.hpp"
+#include "monster.h"
 
 int main()
 {
 	do
 	{
-		// A changer plus tard
-		int hp = 10;
-		int attack = 10;
-		int def = 10;
-		int speed = 10;
+
+		dragon.GetDamage(5);
+
+
 
 
 		std::cout << "Welcome to Monster Fight Simulator." << '\n';
 		// ad text (history)
 
+	std::cout << "There is 3 Monsters in this game";
 		std::cout << "Chose two races to make them fight each other." << '\n';
 		// 
-
-
-		// Stats a changer plus tard
-		std::cout << "Ragnir has " << hp << " hp\n";
-		std::cout << "Fey has " << hp << " hp\n";
-		std::cout << "Zeus has " << hp << " hp\n";
-
-		std::cout << "Ragnir has " << attack << " attack\n";
-		std::cout << "Fey has " << attack << " attack\n";
-		std::cout << "Zeus has " << attack << " attack\n";
-
-		std::cout << "Ragnir has " << def << " attack\n";
-		std::cout << "Fey has " << def << " attack\n";
-		std::cout << "Zeus has " << def << " attack\n";
-
-		std::cout << "Ragnir has " << speed << " attack\n";
-		std::cout << "Fey has " << speed << " attack\n";
-		std::cout << "Zeus has " << speed << " attack\n";
-
 
 
 
 		std::cout << " (Class) WIN ! " << '\n';
 
-	} while (true);
 } 
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
