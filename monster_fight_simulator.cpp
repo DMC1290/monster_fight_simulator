@@ -37,6 +37,7 @@ int main()
 
 
 
+	} while (dragon.get_hp() > 0);
 
 		std::cout << "Welcome to Monster Fight Simulator." << '\n';
 		// ad text (history)
